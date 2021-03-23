@@ -3,13 +3,13 @@
     <div>
       <Logo />
       <h1 class="title">Hello World</h1>
-      <nuxt-link
+      <!-- <nuxt-link
         v-for="post in posts"
         :key="post.id"
         :to="'/articles/' + post.id"
       >
         {{ post.title.rendered }}
-      </nuxt-link>
+      </nuxt-link> -->
     </div>
   </div>
 </template>
